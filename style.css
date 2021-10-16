@@ -5,7 +5,27 @@
   --main-para: hsla(0, 0%, 100%, 0.75);
   --stat-headings: hsla(0, 0%, 100%, 0.6);
 
-  font-size: 15px;
   --inter: "Inter", sans-serif;
   --lexend-deca: "Lexend Deca", sans-serif;
+}
+html {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  background-color: var(--main-background);
+}
+.container {
+  width: 100vw;
+  height: 97vh;
+  display: flex;
+  align-items: center;
+}
+.card {
+  max-width: 95vw;
+  width: 70rem;
+  height: 30rem;
+  background-color: var(--card-background);
+  border-radius: 1rem;
+  margin: auto;
 }
